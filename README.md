@@ -1,8 +1,11 @@
 <h1 align="center">Máster en Desarrollo FullStack y Blockchain de ConquerBlocks</h1>
 
-<h3 align="center">Módulo de HTML</h3><br>
+<h2>Repositorio creado para el módulo de HTML para Máster de Desarrollo FullStack y Blockchain de ConquerBlocks</h2>
 
-<img src="" alt="Portada del módulo de HTML" />
+<br>
+<br>
+
+<img src="00_indice_modulo/portada.png" alt="Portada del módulo de HTML" />
 
 <br>
 
