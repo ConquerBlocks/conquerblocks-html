@@ -15,9 +15,9 @@
 
 <h4>Material de las clases</h4>
 <ul>
-    <li><a href="./00_indice_modulo/HTML - Contenidos.pdf">Índice de contenidos del módulo</a></li>
-    <li><a href="./01_clases/Clase 00 - Presentación/HTML Clase 00 - Presentación del módulo - Diapositivas.pdf">Clase 0 - Presentación del módulo</a></li>
+    <li><a href="https://github.com/bienvenidosaez/conquerblocks-html/blob/5bfa363b7bc8c9fd7b5dc35f54aa814d4d254dd4/00_indice_modulo/HTML%20-%20Contenidos.pdf">Índice de contenidos del módulo</a></li>
+    <li><a href="https://github.com/bienvenidosaez/conquerblocks-html/blob/5bfa363b7bc8c9fd7b5dc35f54aa814d4d254dd4/01_clases/Clase%2001%20-%20Introducci%C3%B3n/HTML%20Clase%2001%20-%20Introducci%C3%B3n%20-%20Diapositivas.pdf">Clase 0 - Presentación del módulo</a></li>
     <li><a href="./01_clases/Clase 01 - Introducción/HTML Clase 01 - Introducción - Diapositivas.pdf">Clase 1 - Introducción</a></li>
-    <li><a href="./01_clases/Clase 02 - Un poco de historia/HTML Clase 02 - Un poco de historia - Diapositivas.pdf">Clase 2 - Un poco de historia</a></li>
-    <li><a href="./01_clases/Clase 03 - Los lenguajes de marcas/HTML Clase 03 - Los lenguajes de marcas - Diapositivas.pdf">Clase 3 - Los lenguajes de marcas</a></li>
+    <li><a href="https://github.com/bienvenidosaez/conquerblocks-html/blob/5bfa363b7bc8c9fd7b5dc35f54aa814d4d254dd4/01_clases/Clase%2002%20-%20Un%20poco%20de%20historia/HTML%20Clase%2002%20-%20Un%20poco%20de%20historia%20-%20Diapositivas.pdf">Clase 2 - Un poco de historia</a></li>
+    <li><a href="https://github.com/bienvenidosaez/conquerblocks-html/blob/5bfa363b7bc8c9fd7b5dc35f54aa814d4d254dd4/01_clases/Clase%2003%20-%20Los%20lenguajes%20de%20marcas/HTML%20Clase%2003%20-%20Los%20lenguajes%20de%20marcas%20-%20Diapositivas.pdf">Clase 3 - Los lenguajes de marcas</a></li>
 </ul>
