@@ -2,16 +2,10 @@
 
 <h2>Repositorio creado para el módulo de HTML</h2>
 
-<br>
-<br>
-
 <img width="450px" src="00_indice_modulo/portada.png" alt="Portada del módulo de HTML" />
 
-<br>
 
-<p align="left">
-    <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&amp;logo=html5&amp;logoColor=white" alt="HTML5">
-</p>
+<img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&amp;logo=html5&amp;logoColor=white" alt="HTML5">
 
 <h4>Material de las clases</h4>
 <ul>
