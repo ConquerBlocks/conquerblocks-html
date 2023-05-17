@@ -14,4 +14,5 @@
     <li><a href="./01_clases/Clase 01 - Introducción/HTML Clase 01 - Introducción - Diapositivas.pdf">Clase 1 - Introducción</a></li>
     <li><a href="https://github.com/bienvenidosaez/conquerblocks-html/blob/5bfa363b7bc8c9fd7b5dc35f54aa814d4d254dd4/01_clases/Clase%2002%20-%20Un%20poco%20de%20historia/HTML%20Clase%2002%20-%20Un%20poco%20de%20historia%20-%20Diapositivas.pdf">Clase 2 - Un poco de historia</a></li>
     <li><a href="https://github.com/bienvenidosaez/conquerblocks-html/blob/5bfa363b7bc8c9fd7b5dc35f54aa814d4d254dd4/01_clases/Clase%2003%20-%20Los%20lenguajes%20de%20marcas/HTML%20Clase%2003%20-%20Los%20lenguajes%20de%20marcas%20-%20Diapositivas.pdf">Clase 3 - Los lenguajes de marcas</a></li>
+    <li><a href="https://github.com/bienvenidosaez/conquerblocks-html/blob/main/01_clases/Clase%2004%20-%20Estructura%20de%20una%20p%C3%A1gina%20web/HTML%20-%20Clase%2004%20-%20Estructura%20de%20una%20p%C3%A1gia%20web%20-%20Diapositivas.pdf">Clase 4 - Estructura de una página web</a></li>
 </ul>
