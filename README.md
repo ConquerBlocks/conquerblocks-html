@@ -20,5 +20,15 @@
     <li><a href="https://github.com/bienvenidosaez/conquerblocks-html/blob/main/01_clases/Clase%2006%20-%20Etiquetas%20sem%C3%A1nticas%20y%20su%20importancia/HTML%20-%20Clase%2006%20-%20Tareas.pdf">Clase 6 - Tareas Etiquetas semánticas</a></li>
     <li><a href="https://github.com/bienvenidosaez/conquerblocks-html/blob/main/01_clases/Clase%20Bonus%20-%20LiveServer%20y%20SimpleHTTPServer/Clase%20Bonus%20-%20LiveServer%20y%20SimpleHTTPServer%20-%20Diapositivas.pdf">Clase 6.1 - LiveServer y SimpleHTTPServer</a></li>
     <li><a href="https://github.com/bienvenidosaez/conquerblocks-html/blob/main/01_clases/Clase%2007%20-%20Etiquetas%20de%20agrupaci%C3%B3n/HTML%20-%20Clase%2007%20-%20Etiquetas%20de%20agrupaci%C3%B3n%20-%20Diapositivas.pdf">Clase 7 - Etiquetas de agrupación</a></li>
-    <li><a href="https://github.com/bienvenidosaez/conquerblocks-html/blob/main/01_clases/Clase%2007%20-%20Etiquetas%20de%20agrupaci%C3%B3n/HTML%20-%20Clase%2007%20-%20Etiquetas%20de%20agrupaci%C3%B3n%20-%20Tareas.pdf">Clase 7 - Tareas Etiquetas de agrupación</a></li>
+    <li><a href="">Clase 8 - Tablas</a></li>
+    <li><a href="">Clase 9 - Tablas avanzadas</a></li>
+    <li><a href="">Clase 10 - Formularios I</a></li>
+    <li><a href="">Clase 11 - Formularios II</a></li>
+
+</ul>
+
+<h4>Clases Bonus</h4>
+<ul>
+    <li><a href="">Clase Bonus - Instalación y creación de un Favicon</a></li>
+    <li><a href="">Clase Bonus - LiveServer y SimpleHTTPServer</a></li>
 </ul>
