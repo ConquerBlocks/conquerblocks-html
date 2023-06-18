@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+
+  <!-- Título para el navegador y los buscadores -->
+  <title>Clase 12</title>
+
+  <!-- Descripción de la página para los buscadores -->
+  <meta name="description" content="Página de ejemplos vistos en la clase 5: Texto en HTML">
+
+  <!-- Palabras clave para los buscadores -->
+  <meta name="keywords" content="p, h1, h2, h3, h4, h5">
+
+  <!-- Autor de la página -->
+  <meta name="author" content="@bienvenidosaez">
+
+  <!-- Favicon de la página -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+  <!-- Codificación-->
+  <meta charset="UTF-8">
+
+  <!-- Para que la web sea responsive -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Para algunos navegadores móviles -->
+  <meta name="theme-color" content="#1e7bbf">
+
+</head>
+
+<body>
+  <header>
+    <h1>Tarea 12.3</h1>
+    <p><a href="index.html">👈 Volver atrás</a></p>
+    <hr />
+  </header>
+
+  <main>
+    <h2>Rellena tu CV</h2>
+    <form action="" method="get">
+      <fieldset>
+        <legend>Datos personalez</legend>
+
+        <p>
+          <label for="provincia">Provincia</label><br>
+          <select name="provincia" id="provincia">
+            <option value="">-</option>
+            <option value="A">Almería</option>
+            <option value="G">Granada</option>
+            <option value="S">Sevilla</option>
+            <option value="H">Huelva</option>
+            <option value="J">Jaén</option>
+            <option value="C">Cádiz</option>
+            <option value="M">Málaga</option>
+            <option value="C">Córdoba</option>
+          </select>
+        </p>
+
+        <p>
+          Fecha de nacimiento<br>
+          <input type="text" name="dia" size="2" maxlength="2"> de 
+          <select name="mes" id="mes">
+            <option value="">-</option>
+            <option value="1">Enero</option>
+            <option value="2">Febrero</option>
+            <option value="3">Marzo</option>
+            <option value="4">Abril</option>
+            <option value="5">Mayo</option>
+            <option value="6">Junio</option>
+            <option value="7">Julio</option>
+            <option value="8">Agosto</option>
+            <option value="9">Septiembre</option>
+            <option value="10">Octubre</option>
+            <option value="11">Noviembre</option>
+            <option value="12">Diciembre</option>
+          </select>
+          de
+          <input type="text" name="year" size="4">
+        </p>
+
+        <p>
+          <label for="temas">Temas de interés</label><br>
+          <select name="temas" id="temas" size="5" multiple>
+            <option value="">Administración de bases de datos</option>
+            <option value="">Análisis y programación</option>
+            <option value="">Arquitectura</option>
+            <option value="">Calidad</option>
+            <option value="">ERP</option>
+            <option value="">CRM</option>
+          </select>
+        </p>
+
+      </fieldset>
+
+      <p><button>Enviar</button></p>
+
+    </form>
+
+  </main>
+
+  <hr>
+  <footer>
+    © ConquerBlocks 2023 - Todos los derechos reservados
+  </footer>
+</body>
+
+</html>
