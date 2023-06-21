@@ -26,6 +26,7 @@
     <li><a target="_blank" href="https://github.com/bienvenidosaez/conquerblocks-html/blob/main/01_clases/Clase%2010%20-%20Formularios%20I/HTML%20Clase%2010%20-%20Formularios%20I%20(Diapositivas).pdf">Clase 10 - Formularios I</a></li>
     <li><a target="_blank" href="https://github.com/bienvenidosaez/conquerblocks-html/blob/main/01_clases/Clase%2011%20-%20Formularios%20II/HTML%20Clase%2011%20-%20Formularios%20II%20(Diapositivas).pdf">Clase 11 - Formularios II</a></li>
     <li><a target="_blank" href="https://github.com/bienvenidosaez/conquerblocks-html/blob/main/01_clases/Clase%2012%20-%20Tareas%20con%20formularios/HTML%20Clase%2012%20-%20Tareas%20sobre%20formularios%20(Dispositivas).pdf">Clase 12 - Resolución de tareas con formularios básicos y avanzados</a></li>
+    <li><a target="_blank" href="https://github.com/bienvenidosaez/conquerblocks-html/blob/main/01_clases/Clase%2013%20-%20Imagenes%20en%20la%20web/HTML%20Clase%2013%20-%20Im%C3%A1genes%20en%20la%20web.pdf">Clase 13 - Imágenes en la web</a></li>
 
 </ul>
 
