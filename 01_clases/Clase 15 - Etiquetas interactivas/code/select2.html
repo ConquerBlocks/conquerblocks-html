@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+
+  <!-- Título para el navegador y los buscadores -->
+  <title>Clase 14</title>
+
+  <!-- Descripción de la página para los buscadores -->
+  <meta name="description" content="Página de ejemplos vistos en la clase 5: Texto en HTML">
+
+  <!-- Palabras clave para los buscadores -->
+  <meta name="keywords" content="p, h1, h2, h3, h4, h5">
+
+  <!-- Autor de la página -->
+  <meta name="author" content="@bienvenidosaez">
+
+  <!-- Favicon de la página -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+  <!-- Codificación-->
+  <meta charset="UTF-8">
+
+  <!-- Para que la web sea responsive -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Para algunos navegadores móviles -->
+  <meta name="theme-color" content="#1e7bbf">
+  
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+</head>
+
+<body>
+  <header>
+      <h1>Clase 145 - Etiquetas interactivas</h1>
+    <p><a href="index.html">👈 Volver atrás</a></p>
+    <hr />
+  </header>
+
+  <main>
+    <h2>Ejemplo de elemento Select2</h2>
+    <p>
+      Selecciona tu lenguaje favorito:
+      <select name="" id="weblangs">
+        <option value="">-</option>
+        <option value="1">HTML</option>
+        <option value="2">CSS</option>
+        <option value="3">Javascript</option>
+        <option value="1">HTML</option>
+        <option value="2">CSS</option>
+        <option value="3">Javascript</option>
+        <option value="1">HTML</option>
+        <option value="2">CSS</option>
+        <option value="3">Javascript</option>
+      </select>
+    </p>
+
+  </main>
+
+  <hr>
+  <footer>
+    © ConquerBlocks 2023 - Todos los derechos reservados
+  </footer>
+
+  <script>
+    $(document).ready(function () {
+      $('#weblangs').select2();
+    });
+  </script>
+</body>
+
+</html>
