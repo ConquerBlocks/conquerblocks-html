@@ -28,6 +28,7 @@
     <li><a target="_blank" href="https://github.com/bienvenidosaez/conquerblocks-html/blob/main/01_clases/Clase%2012%20-%20Tareas%20con%20formularios/HTML%20Clase%2012%20-%20Tareas%20sobre%20formularios%20(Dispositivas).pdf">Clase 12 - Resolución de tareas con formularios básicos y avanzados</a></li>
     <li><a target="_blank" href="https://github.com/bienvenidosaez/conquerblocks-html/blob/main/01_clases/Clase%2013%20-%20Imagenes%20en%20la%20web/HTML%20Clase%2013%20-%20Im%C3%A1genes%20en%20la%20web.pdf">Clase 13 - Imágenes en la web</a></li>
     <li><a target="_blank" href="https://github.com/bienvenidosaez/conquerblocks-html/blob/main/01_clases/Clase%2014%20-%20Etiquetas%20multimedia/HTML%20Clase%2014%20-%20Etiquetas%20multimedia%20(Diapositivas).pdf">Clase 14 - Etiquetas multimedia</a></li>
+    <li><a target="_blank" href="https://github.com/bienvenidosaez/conquerblocks-html/blob/main/01_clases/Clase%2015%20-%20Etiquetas%20interactivas/HTML%20Clase%2015%20-%20Etiquetas%20interactivas.pdf">Clase 15 - Etiquetas interactivas</a></li>
 </ul>
 
 <h4>Clases Bonus</h4>
