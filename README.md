@@ -33,6 +33,7 @@
 
 <h4>Clases Bonus</h4>
 <ul>
+    <li>Clase Bonus - Repositorio en Github para el seguimiento de las clases</li>
     <li><a target="_blank" href="https://github.com/bienvenidosaez/conquerblocks-html/blob/main/01_clases/Clase%20Bonus%20-%20Instalaci%C3%B3n%20y%20creaci%C3%B3n%20de%20un%20Favicon/Clase%20Bonus%20-%20Creaci%C3%B3n%20e%20instalaci%C3%B3n%20de%20un%20Favicon%20(Diapositivas).pdf">Clase Bonus - Instalación y creación de un Favicon</a></li>
     <li><a target="_blank" href="https://github.com/bienvenidosaez/conquerblocks-html/blob/main/01_clases/Clase%20Bonus%20-%20LiveServer%20y%20SimpleHTTPServer/Clase%20Bonus%20-%20LiveServer%20y%20SimpleHTTPServer%20-%20Diapositivas.pdf">Clase Bonus - LiveServer y SimpleHTTPServer</a></li>
     <li><a target="_blank" href="https://github.com/bienvenidosaez/conquerblocks-html/blob/main/01_clases/Clase%20Bonus%20-%20Windows%20Resizer%20y%20mas/Clase%20Bonus%20-%20Windows%20Resizer.pdf">Clase Bonus - Windows Resizer y contenido dummy</a></li>
