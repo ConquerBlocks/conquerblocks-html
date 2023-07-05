@@ -1,0 +1,91 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>Registro | Fórmate en FullStack y Blockchain Developer</title>
+  <meta name="description" content="Descubre y aprende todo lo relacionado con el Desarrollo FullStack">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.png">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+  <header>
+    <figure>
+      <img width="150px" src="img/common/logotipo-conquer-crypto.png" alt="Logotipo de Conquer Crypto">
+    </figure>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="quienes-somos.html">Quiénes Somos</a></li>
+        <li><a href="cursos.html">Cursos</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li>Registro</li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Regístrate</h1>
+    <p>Para poder acceder a nuestra academia necesitamos que te registres</p>
+    <form action="post" enctype="multipart/form-data">
+      <p>
+        <label for=name">Nombre completo</label>
+        <input type="text" name="name" id="name">
+      </p>
+
+      <p>
+        <label for="birthday">Fecha de nacimiento</label>
+        <input type="date" name="birthday" id="birthday">
+      </p>
+
+      <p>
+        <label for=email">Email</label>
+        <input type="email" name="email" id="email" required>
+      </p>
+
+      <p>
+        <label for=address">Dirección</label>
+        <input type="text" name="address" id="address">
+      </p>
+
+      <p>
+        <label for="web">Página web</label>
+        <input type="url" name="web" id="web">
+      </p>
+
+      <p>
+        <label for="photo">Foto</label>
+        <input type="file" name="photo" id="photo">
+      </p>
+
+      <p>
+        <label for="bio">Biografía</label><br>
+        <textarea name="bio" id="" cols="30" rows="5"></textarea>
+      </p>
+
+      <p>
+        <button>Enviar</button>
+        <input type="reset" value="Borrar formulario">
+      </p>
+    </form>
+  </main>
+
+  <footer>
+    <p>© Conquer Crypto 2023 - <a href="aviso-legal.html">Aviso Legal</a></p>
+  </footer>
+
+</body>
+
+</html>
