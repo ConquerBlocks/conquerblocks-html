@@ -1,0 +1,104 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="theme-color" content="#fafafa">
+
+  <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="./favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+  
+</head>
+<body>
+    <header>
+        <h1>Prueba de Formulario II</h1>
+    </header>
+    <main>
+    <form action="/registrar-cliente/" name="registro" method="get" autocomplete="off" enctype="multipart/form-data">
+        <input type="hidden" name="company" value="ConquerBlocks">
+        <p>
+            <label for="search">Introduce tu búsqueda</label>
+            <input type="search" name="q" placeholder="Busca" id="search"> 
+        </p>
+        <p>
+            <label for="color">Selecciona tu color</label>
+            <input type="color" name="color" id="color">
+        </p>
+        <p>Selecciona tu fecha de nacimiento <br>
+        <input type="date" name="birth"></p>
+        <p>
+            Selecciona tu horario de reunión <br>
+            <input type="time" name="hora">
+        </p>
+        <p>
+            Selecciona fecha y hora de nacimiento <br>
+            <input type="datetime-local" name="birth_time">
+        </p>
+        <p>
+            Selecciona el mes <br>
+            <input type="month" name="month">
+        </p>
+        <p>
+            Selecciona la semana <br>
+            <input type="week" name="week">
+        </p>
+        <p>
+            Indique su número de teléfono <br>           
+            <input type="tel" name="phone">
+        </p>
+        <p>Indique su experiencia en la página <br>
+        <input type="range" min="1" max="10" name="range">
+        </p>
+        <p>Seleccione los ingredientes de su pizza</p>
+        <div>
+            <p><input type="checkbox" name="tomate" id="tomate"> 
+            <label for="tomate">Tomate</label>
+            </p>
+            <p><input type="checkbox" name="queso" id="cheese"> 
+                <label for="cheese">Queso</label>
+                </p>
+            <p><input type="checkbox" name="bacon" id="bacon"> 
+                <label for="bacon">Panceta</label>
+                </p>
+        </div>
+
+
+        <button>Enviar</button>
+        <input type="reset" value="Borrar el formulario">
+
+    </form>
+    </main>
+<br>
+<footer>
+    María Fernanda Mamone sigue aprendiendo
+</footer>
+</body>
+</html>

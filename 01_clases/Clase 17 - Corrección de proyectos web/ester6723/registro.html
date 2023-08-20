@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html class="no-js" lang="es">
+<head>
+<!-- Codificación-->
+<meta charset="utf-8">
+<!-- Título para el navegador y los buscadores -->
+<title>Registro</title>
+<!-- Descripción de la página para los buscadores -->
+<meta name="description" content="Registrase para contactar con los profesionales de Conquer Blocks">
+<!-- Para que la web sea responsive -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Palabras clave para los buscadores -->
+<meta name="keywords" content="Registro, nombre, apellido, edad, email, ubicacion">
+<!-- Autor de la página -->
+<meta name="author" content="Ester Cortes">
+<!-- Para algunos navegadores móviles -->
+<meta name="theme-color" content="#1e7bbf">
+<link rel="stylesheet" href="css/style.css">
+<!-- Favicon de la página -->
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta property="og:title" content="">
+<meta property="og:type" content="">
+<meta property="og:url" content="">
+<meta property="og:image" content="">
+<link rel="apple-touch-icon" sizes="57x57" href="img/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="img/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="img/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="img/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="img/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="img/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="img/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="img/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="img/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192" href="img/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="css/style.css">
+
+<link rel="manifest" href="site.webmanifest">
+
+
+</head>
+
+<header>
+    <nav>
+        <a href="index.html" style="background-color:rgb(131, 200, 131);">Home</a>
+        <a href="quienes_somos.html" style="background-color:rgb(131, 200, 131);">Quienes somos</a>
+        <a href="curso.html" style="background-color:rgb(131, 200, 131);">Cursos</a>
+        <a href="Blog.html" style="background-color:rgb(131, 200, 131);">Blog</a>
+        <a href="login.html" style="background-color:rgb(131, 200, 131);">Login</a>
+        <a href="contacto.html" style="background-color:rgb(131, 200, 131);">Contacto</a>
+        <a href="registro.html" style="background-color:rgb(131, 200, 131);">Registro</a>
+    </nav>
+</header>
+
+<main>
+    
+
+    <form method="post" action="enviar.php" enctype="multipart/form-data">
+        <fieldset>
+            <br>
+            <legend><strong>Registro</strong></legend>
+            <p>Su mensaje será enviado a nuestros equipos, que se pondrán en contacto con usted 
+            tan pronto como puedan.</p>
+        <label for="nombre completo">Nombre completo:</label><br>
+        <input type="text" id="nombre" name="nombre completo"required><br>
+        <p>
+            Fecha de nacimiento<br>
+            <input type="text" name="dia" size="2" maxlength="2"> de 
+            <select name="mes" id="mes">
+                <option value="">-</option>
+                <option value="1">Enero</option>
+                <option value="2">Febrero</option>
+                <option value="3">Marzo</option>
+                <option value="4">Abril</option>
+                <option value="5">Mayo</option>
+                <option value="6">Junio</option>
+                <option value="7">Julio</option>
+                <option value="8">Agosto</option>
+                <option value="9">Septiembre</option>
+                <option value="10">Octubre</option>
+                <option value="11">Noviembre</option>
+                <option value="12">Diciembre</option>
+            </select>
+            de
+            <input type="text" name="year" size="4">
+        </p>
+
+        <p>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"required><br>
+        </p>
+
+        <p>
+            <label for="direccion">Dirección:</label>
+            <input type="text" id="direccion" name="direccion">
+        </p>
+
+        <p>
+            <label for="pagina_web">Página web:</label>
+            <input type="url" id="pagina_web" name="pagina_web">
+        </p>
+
+        <p>
+            <label for="foto">Foto:</label>
+            <input type="file" id="foto" name="foto">
+
+        </p>
+
+        <p>
+            <label for="bio">Biografía</label><br>
+            <textarea name="bio" id="bio" cols="60" rows="5"></textarea>
+        </p>
+        <br>
+        <p>
+        <input type="checkbox" name="privacy" id="privacy" required>
+        <label for="privacy">He leído y acepto la política de privacidad</label><br>
+        </p>
+        
+        <p>
+            <input type="submit" value="Enviar"> <input type="reset"value="Borrar formulario">
+        </p>
+        </fieldset>
+    </form>
+</main>
+
+<footer>
+    <nav>
+        <a href="index.html" style="background-color:rgb(131, 200, 131);">Home</a>
+        <a href="quienes_somos.html" style="background-color:rgb(131, 200, 131);">Quienes somos</a>
+        <a href="curso.html" style="background-color:rgb(131, 200, 131);">Cursos</a>
+        <a href="Blog.html" style="background-color:rgb(131, 200, 131);">Blog</a>
+        <a href="login.html" style="background-color:rgb(131, 200, 131);">Login</a>
+        <a href="contacto.html" style="background-color:rgb(131, 200, 131);">Contacto</a>
+        <a href="registro.html" style="background-color:rgb(131, 200, 131);">Registro</a>
+        
+    </nav>
+    <hr>
+    © ECB Conquer Acadamy 2023 - Todos los derechos reservados
+    <a href="aviso_legal.html" style="background-color:rgb(131, 200, 131);">Aviso Legal</a>
+</footer>
+</html>

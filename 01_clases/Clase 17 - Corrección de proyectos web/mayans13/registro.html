@@ -1,0 +1,91 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+  <!-- Codificacion -->
+  <meta charset="utf-8">
+  <!-- Titulo para el navegador y los buscadores -->
+  <title>Conquer Web</title>
+  <!-- Descripcion corta de la pagina para los buscadores -->
+  <meta name="description" content="Formulario de registro a los cursos disponibles">
+  <!-- Para que la web sea responsive -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Autor de la pagina -->
+  <meta name="author" content="@a-mayans">
+  <!-- Favicon - logo web -->
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Estilos de la web -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="manifest" href="site.webmanifest">
+  <!-- Para algunos navegadores moviles -->
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+  <header>
+    <a href="https://www.conquercrypto.com/conquer-blocks/master-desarrollo-blockchain?utm_source=googleorganico&utm_medium=master-desarrollo-blockchain" class="nav-logo w-inline-block">
+      <img width="190" src="../img/logo.png" alt="nav-logo" class="logo">
+    </a>
+    <a href="index.html">Home</a> |
+    <a href="quienes_somos.html">Quienes Somos</a> |
+    <a href="cursos.html">Cursos</a> |
+    <a href="blog.html">Blog</a> |
+    <a href="registro.html">Registro</a> |
+    <a href="login.html">Login</a> |
+    <a href="contacto.html">Contacto</a>
+  </nav>
+    <h1>Conquer Academy</h1>
+  </header>
+  <hr />
+
+  <main>
+    <h2>Formulario de registro</h2>
+    <form action="#" method="get" name="registro" enctype="multipart/form-data">
+      <fieldset>
+        <legend>Datos personales</legend>
+        <p>
+            <label for="name">Nombre completo:</label>
+            <input type="text" name="nombre" id="name" maxlength="50" placeholder="Alejandro M. Q." required>
+        </p>
+        <p>
+          <label for="date">Fecha de nacimiento</label>
+          <input type="date" name="dia" id="date" size="2" maxlength="2" required>
+        </p>
+        <p>
+          <label for="email">Email:</label>
+          <input type="email" name="email" id="email" placeholder="correo@gmail.com" required>
+        </p>
+        <p>
+          <label for="addres">Direccion:</label>
+          <input type="texto" name="direccion" id="addres" placeholder="C/cap enderrocat Bjs" required>
+        </p>
+        <p>
+          <label for="web">Pagina web:</label>
+          <input type="url" name="paginaWeb" id="web" placeholder="www.nombreweb.com">
+        </p>
+        <p>
+          <label for="photo">Foto:</label>
+          <input type="file" name="foto" id="photo" required>
+        </p>
+        <p>
+          <label for="biography">Biografia:</label><br />
+          <textarea name="bio" id="biography" cols="30" rows="10" placeholder="tu biografia"></textarea>
+        </p>
+        <p>
+          <button>enviar</button>
+          <button type="reset">resetar</button>
+        </p>
+      </fieldset>
+  </main>
+
+  <hr />
+  <footer>
+    © 2023 - Todos los derechos reservados.
+  </footer>
+
+</body>
+
+</html>

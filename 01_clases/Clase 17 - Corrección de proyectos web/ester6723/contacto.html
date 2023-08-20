@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html class="no-js" lang="es">
+<head>
+<!-- Codificación-->
+<meta charset="utf-8">
+<!-- Título para el navegador y los buscadores -->
+<title>contacto</title>
+<!-- Descripción de la página para los buscadores -->
+<meta name="description" content="Datos del contacto">
+<!-- Para que la web sea responsive -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Palabras clave para los buscadores -->
+<meta name="keywords" content="datos, nombre, apellido, telefono, mail, foto">
+<!-- Autor de la página -->
+<meta name="author" content="Ester Cortes">
+<!-- Para algunos navegadores móviles -->
+<meta name="theme-color" content="#1e7bbf">
+<link rel="stylesheet" href="css/style.css">
+
+<!-- Favicon de la página -->
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta property="og:title" content="">
+<meta property="og:type" content="">
+<meta property="og:url" content="">
+<meta property="og:image" content="">
+<link rel="apple-touch-icon" sizes="57x57" href="img/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="img/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="img/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="img/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="img/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="img/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="img/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="img/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="img/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192" href="img/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="css/style.css">
+
+<link rel="manifest" href="site.webmanifest">
+
+
+
+</head>
+
+<header>
+    <nav>
+        <a href="index.html" style="background-color:rgb(131, 200, 131);">Home</a>
+        <a href="quienes_somos.html" style="background-color:rgb(131, 200, 131);">Quienes somos</a>
+        <a href="curso.html" style="background-color:rgb(131, 200, 131);">Cursos</a>
+        <a href="Blog.html" style="background-color:rgb(131, 200, 131);">Blog</a>
+        <a href="login.html" style="background-color:rgb(131, 200, 131);">Login</a>
+        <a href="contacto.html" style="background-color:rgb(131, 200, 131);">Contacto</a>
+        <a href="registro.html" style="background-color:rgb(131, 200, 131);">Registro</a>
+    </nav>
+    
+</header>
+
+<main>
+
+    
+    <form method="post" action="enviar.php" enctype="multipart/form-data">
+        <fieldset>
+            <br>
+            <legend><strong>Contacto</strong></legend>
+            <p>¿Como podemos ayudarte?</p>
+            <p>En el siguiente formulario puedes ponerte en contacto con el equipo de Conquer, para cualquier tipo de duda
+                referente a nuestros cursos.</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14398.10106226358!2d55.732845834795704!3d25.554185798510805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ef5f9177b544521%3A0x8ce36e1acfdaf26!2sUmm%20Al%20Quwain%20Free%20Trade%20Zone%20Authority!5e0!3m2!1ses!2ses!4v1688302680671!5m2!1ses!2ses" 
+                width="400" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><hr>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre"><br>
+                <label for="apellidos">Apellidos:</label>
+                <input type="text" id="apellidos" name="apellidos"><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"required><br>
+                <p>
+                    <label for="bio">Mensaje</label><br>
+                    <textarea name="mensaje" id="mensaje" cols="60" rows="5"></textarea>
+                </p>
+                <br>
+                <p>
+                    <input type="checkbox" name="privacy" id="privacy" required>
+                    <label for="privacy">He leído y acepto la política de privacidad</label><br>
+                </p>
+                    
+                <p>
+                    <input type="submit" value="Enviar"> 
+                </p>
+            </form>
+
+        </fieldset>
+    </form>
+</main>
+
+<footer>
+    <nav>
+        <a href="index.html" style="background-color:rgb(131, 200, 131);">Home</a>
+        <a href="quienes_somos.html" style="background-color:rgb(131, 200, 131);">Quienes somos</a>
+        <a href="curso.html" style="background-color:rgb(131, 200, 131);">Cursos</a>
+        <a href="Blog.html" style="background-color:rgb(131, 200, 131);">Blog</a>
+        <a href="login.html" style="background-color:rgb(131, 200, 131);">Login</a>
+        <a href="contacto.html" style="background-color:rgb(131, 200, 131);">Contacto</a>
+        <a href="registro.html" style="background-color:rgb(131, 200, 131);">Registro</a>
+        
+    </nav>
+    <hr>
+    © ECB Conquer Acadamy 2023 - Todos los derechos reservados
+    <a href="aviso_legal.html" style="background-color:rgb(131, 200, 131);">Aviso Legal</a>
+</footer>
+</html>

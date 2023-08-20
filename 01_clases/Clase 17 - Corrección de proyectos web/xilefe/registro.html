@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html class="no-js" lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <title>Registro</title>
+    <meta name="description" content="Formulario de registro a la academia" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="apple-touch-icon" sizes="57x57" href="../apple-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="60x60" href="../apple-icon-60x60.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="../apple-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="../apple-icon-76x76.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="../apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="../apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="../apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="../apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="../apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="../android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="../favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="../favicon-16x16.png"
+    />
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="manifest" href="site.webmanifest" />
+  </head>
+
+  <body>
+    <header>
+      <figure>
+        <a href="index.html">
+          <img
+            loading="lazy"
+            width="50%"
+            src="img/logo.png"
+            alt="logo conquerblocks"
+          />
+        </a>
+      </figure>
+
+      <h1>ConquerBlocks Academy</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="nosotros.html">Quiénes somos</a>
+        <a href="cursos.html">Cursos</a>
+        <a href="blog.html">Blog</a>
+        <a href="registro.html">Registro</a>
+        <a href="login.html">Login</a>
+        <a href="contacto.html">Contacto</a>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <form action="#" name="Formulario" method="post">
+          <fieldset>
+            <legend><strong>Formulario de Registro</strong></legend>
+            <label for="name">Nombre:</label><br />
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Tu nombre y apellidos"
+              required
+            /><br /><br />
+            <label for="birthday">Fecha de nacimiento:</label><br />
+            <input
+              type="date"
+              id="birthday"
+              name="birthday"
+              required
+            /><br /><br />
+            <label for="email">Dirección de correo electrónico:</label><br />
+            <input
+              type="email"
+              name="correo"
+              id="email"
+              placeholder="Tu Email"
+              required
+            /><br /><br />
+            <label for="addres">Dirección Fisica:</label><br />
+            <input
+              type="text"
+              id="addres"
+              name="direccion"
+              placeholder="Calle, numero y piso"
+              required
+            /><br /><br />
+            <label for="web">Página Web</label><br />
+            <input
+              type="url"
+              name="web"
+              id="web"
+              placeholder="www.tu_pagina.com"
+              required
+            /><br /><br />
+            <label for="photo">Foto:</label><br />
+            <input type="file" name="foto" id="photo" required /><br /><br />
+            <label for="biography">Biografía:</label><br />
+            <textarea
+              name="biografia"
+              id="biography"
+              cols="30"
+              rows="10"
+              required
+            ></textarea>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+    <footer>
+      © ConquerBlocks 2023 - Todos los derechos reservados.
+      <a href="avisolegal.html">Aviso Legal</a>
+    </footer>
+  </body>
+</html>

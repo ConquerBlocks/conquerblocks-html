@@ -1,0 +1,100 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="theme-color" content="#fafafa">
+
+  <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="./favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+  
+</head>
+<body>
+    <header>
+      <h1><center>Conquer Academy</center></h1>
+      <p style="background:lightblue;" align left><a href="home.html">Home</a></p>
+      <p style="background:lightblue;" align center><a href="./quienes_somos.html">Quienes somos</a></p>
+      <p style="background:lightblue;" align right><a href="cursos.html">Cursos</a></p>
+      <p style="background:lightblue;" align center><a href="/blog.html">Blog</a></p>
+      <p style="background:lightblue;" align right><a href="/registro.html">Registro</a></p>
+      <p style="background:lightblue;" align center><a href="/login.html">Login</a></p>
+      <p style="background:lightblue;" align center><a href="/contacto.html">Contacto</a></p>
+
+
+
+    </header>
+    <Main>
+        <h2><center>Registro</center></h2>
+
+        <form action="/registrar_alumno/" name="registro" method="get" autocomplete="off" enctype="multipart/form-data">
+            <p>
+                <label for="nombre">Nombre Completo</label>
+                <input type="text" name="nombre" id="nombre" placeholder="María Fernandez" size="50" autocomplete="off">
+
+            </p>
+            <p>
+                <label for="fecha">Fecha de Nacimiento</label>
+                <input type="date" name="fecha" id="fecha">
+
+            </p>
+            <p>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+
+            </p>
+            <p>
+                <label for="direccion">Dirección</label>
+                <input type="text" name="direction" id="direccion">
+
+            </p>
+            <p>
+                <label for="web">Página Web</label>
+                <input type="url" name="web" id="web">
+
+            </p>
+            <p>
+                <label for="photo">Foto</label>
+                <input type="file" name="photo" id="photo">
+
+            </p>
+            <p>
+                <label for="bio">Biografía</label><br>
+                <textarea name="bio" id="bio" cols="60" rows="5"></textarea>
+            </p>
+            <button>Enviar</button>
+            <input type="reset" value="Borrar el formulario">
+
+        </form>
+    </Main>
+    <footer>
+      <center>Política de Privacidad | Términos y condiciones | Política de Cookies</center>
+    </footer>
+</body>
